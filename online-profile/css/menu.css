@@ -1,0 +1,9 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__icon {
+  font-size: 1.4em;
+  color: #222;
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebfaff;
+  padding: 10px;
+}
+
+#main {
+  width: 330px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  margin: 0 auto;
+  padding: 2em 2em;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
+}

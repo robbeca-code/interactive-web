@@ -1,0 +1,23 @@
+.contact__sns {
+  display: flex;
+  align-content: center;
+  padding-bottom: 10px;
+}
+
+.contact__sns:first-child {
+  border-bottom: 1px solid black;
+}
+
+.contact__sns:last-child {
+  padding-top: 10px;
+}
+
+.contact__icon {
+  font-size: 1.1em;
+  color: #444;
+  padding-right: 10px;
+}
+
+.contact__text {
+  font-size: 0.8em;
+}
