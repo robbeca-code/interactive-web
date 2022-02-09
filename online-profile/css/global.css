@@ -28,3 +28,19 @@ body {
   padding: 2em 2em;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
 }
+
+.bg-red {
+  background-color: #ff867c;
+}
+
+.bg-blue {
+  background-color: #ebfaff;
+}
+
+.bg-green {
+  background-color: #69f0ae;
+}
+
+.bg-yellow {
+  background-color: #ffee58;
+}
