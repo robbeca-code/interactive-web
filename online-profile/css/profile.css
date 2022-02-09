@@ -57,3 +57,23 @@
   margin: 0 auto 20px;
   padding: 10px 30px;
 }
+
+.btn-red {
+  background-color: #e53935;
+  box-shadow: 10px 10px 10px rgba(245, 132, 132, 0.4);
+}
+
+.btn-blue {
+  background-color: #39e6f8;
+  box-shadow: 10px 10px 10px rgba(151, 243, 247, 0.4);
+}
+
+.btn-green {
+  background-color: #009624;
+  box-shadow: 10px 10px 10px rgba(170, 247, 151, 0.4);
+}
+
+.btn-yellow {
+  background-color: #ffab00;
+  box-shadow: 10px 10px 10px rgba(247, 213, 151, 0.4);
+}
