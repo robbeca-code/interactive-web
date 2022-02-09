@@ -14,11 +14,9 @@ a {
   text-decoration: none;
 }
 
-#wrap {
-  width: 100vw;
-  height: 100vh;
+body {
   background-color: #ebfaff;
-  padding: 10px;
+  padding: 30px;
 }
 
 #main {
