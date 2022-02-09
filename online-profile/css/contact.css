@@ -5,7 +5,7 @@
 }
 
 .contact__sns:first-child {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #888;
 }
 
 .contact__sns:last-child {
@@ -13,9 +13,10 @@
 }
 
 .contact__icon {
+  width: 20%;
   font-size: 1.1em;
   color: #444;
-  padding-right: 10px;
+  text-align: center;
 }
 
 .contact__text {
