@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/tabmenu.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <title>Dream Jeju</title>
   </head>
@@ -57,9 +57,60 @@
         </nav>
       </header>
       <main>
-        <div class="slideShow"></div>
+        <div class="slideShow">
+          <div class="sides">
+            <button type="submit" class="btn slides__prevBtn">◀</button
+            ><button type="submit" class="btn slides__nextBtn">▶</button>
+            <img src="images/photo-1.jpg" alt="photo-1" class="slides__img" />
+            <img src="images/photo-2.jpg" alt="photo-2" class="slides__img" />
+            <img src="images/photo-3.jpg" alt="photo-3" class="slides__img" />
+          </div>
+        </div>
         <div class="contents">
-          <div class="tabMenu"></div>
+          <div class="tab">
+            <input
+              type="radio"
+              id="tab1"
+              name="tabs"
+              class="tab__menu"
+              checked
+            />
+            <label for="tab1" class="tab__menuTitle">공지사항</label>
+            <input type="radio" id="tab2" name="tabs" class="tab__menu" />
+            <label for="tab2" class="tab__menuTitle">갤러리</label>
+            <div id="notice" class="tab__content">
+              <h2 class="notice__title">공지사항 내용입니다.</h2>
+              <ul class="notice__list">
+                <li class="notice__item">사무실을 이전했습니다.</li>
+                <li class="notice__item">겨울, 추천 여행지</li>
+                <li class="notice__item">가을, 추천 여행지</li>
+              </ul>
+            </div>
+            <div id="gallery" class="tab__content">
+              <h2 class="gallery__title">갤러리 내용입니다.</h2>
+              <ul class="gallery__lists">
+                <li class="gallery__item">
+                  <img src="images/img-1.jpg" alt="img-1" class="img" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/img-2.jpg" alt="img-2" class="img" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/img-3.jpg" alt="img-3" class="img" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/img-1.jpg" alt="img-1" class="img" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/img-2.jpg" alt="img-2" class="img" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/img-3.jpg" alt="img-3" class="img" />
+                </li>
+              </ul>
+            </div>
+          </div>
+
           <div class="links"></div>
         </div>
       </main>
@@ -70,5 +121,6 @@
       src="https://kit.fontawesome.com/87271d9e16.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/slideshow.js" defer></script>
   </body>
 </html>
