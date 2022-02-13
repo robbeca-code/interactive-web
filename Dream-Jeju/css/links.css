@@ -1,0 +1,49 @@
+/* Links */
+.links {
+  float: right;
+  width: 600px;
+  height: 100%;
+  margin-top: 15px;
+}
+
+/* Links Content*/
+.links__list {
+  padding: 0;
+}
+
+.links__item {
+  float: left;
+  width: 33%;
+  text-align: center;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+/* Links Images*/
+.links__img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: violet;
+}
+
+#quick-icon1 {
+  background-image: url("../images/icon-1.jpg");
+}
+
+#quick-icon2 {
+  background-image: url("../images/icon-2.jpg");
+}
+
+#quick-icon3 {
+  background-image: url("../images/icon-3.jpg");
+}
+
+/* Links Text */
+.links__text {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #666;
+}
